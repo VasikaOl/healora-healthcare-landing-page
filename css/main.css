@@ -1,0 +1,52 @@
+/*:root {
+  --primery-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --dark-accent-color: #212121;
+  --grey-accent-color: #757575;
+  --background-accent-color: #c4c4c4;
+  --white-accent-color: #ffffff;
+  --black-accent-color: #000000;
+  --dark-background-accent-color: #2f303a;
+  --blue-background-accent-color: #188ce8;
+  --white-background-accent-color: #f5f4fa;
+  --white-border-color: #eeeeee;
+  --grey-second-accent-color: #afb1b8;
+  --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}*/
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--primery-font);
+  color: var(--dark-accent-color);
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
