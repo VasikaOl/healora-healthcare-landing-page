@@ -1,6 +1,12 @@
-/*:root {
-  --primery-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+:root {
+  --primery-font: "Manrope", sans-serif;
+  --accent-color: #0C1312;
+  
+  
+  
+  
+  
+  /*--secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
   --dark-accent-color: #212121;
   --grey-accent-color: #757575;
@@ -12,37 +18,73 @@
   --white-background-accent-color: #f5f4fa;
   --white-border-color: #eeeeee;
   --grey-second-accent-color: #afb1b8;
-  --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}*/
+  --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+}
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 p {
   margin-top: 0;
   margin-bottom: 0;
-}
+} */
 
-button {
+/* button {
   cursor: pointer;
-}
+}*/
 
 body {
+  background-color: #fff;
   font-family: var(--primery-font);
-  color: var(--dark-accent-color);
+  
+
+  
+  /* колір Neutral/500 - #0C1312 */
+  /* колір Neutral/400 - #3D4241 */
+  /* колір Primery/500 - #173432 */
+  /* колір Primery/50 - #E8EBEB */
+  /* колір Base/White - #FFFFFF */
+  /* колір Neutral/50 - #FAFAFA */
+  /* колір фон hero1 - #EBEFD4 */
+  /* колір фон картка2 - #78A0C4 */
+  /* колір фон картка3 - #B08E75 */
+  /* колір фон картка3 - #173432 */
+}
+.logo {
+  color: var(--accent-color);
+  font-size: 24px;
+  letter-spacing: -0.012em;
+  line-height: 1.4;
+}
+.site-nav a {
+  color: var(--accent-color);
+  text-decoration: none;
+
+  font-size: 16px;
+  letter-spacing: -0.012em;
+  line-height: 1.6;
+}
+.button {
+  color: var(--accent-color);
+  font-size: 16px;
+  letter-spacing: -0.012em;
+  line-height: 1.6;
 }
 
-ul {
+
+/* ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-}
+} */
 
-img {
+/* img {
   display: block;
-}
+} */
 
+/* клас .link прибирає нижне 
+підкреслювання*/
 .link {
   text-decoration: none;
 }
@@ -50,3 +92,4 @@ img {
 .list {
   list-style: none;
 }
+
